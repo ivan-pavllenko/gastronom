@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мясной гастроном</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="icon" href="" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar navbar_mobile_fixed">
+      <div class="container">
+        <div class="navbar-wrapper">
+          <a href="index.html" class="navbar__logo-link">
+            <img
+              src="img/navbar-logo.png"
+              alt="Logo"
+              class="logo navbar__logo"
+            />
+          </a>
+
+          <div class="navbar-navigation">
+            <ul class="menu navbar-navigation__menu">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#about" class="menu__link">О компании</a>
+              </li>
+              <li class="menu__item">
+                <a href="#production" class="menu__link">Продукция</a>
+              </li>
+              <li class="menu__item">
+                <a href="#popular" class="menu__link">Новости</a>
+              </li>
+              <li class="menu__item">
+                <a href="#reviews" class="menu__link">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a href="#feedback" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+            <div class="phone">
+              <span class="phone__number">8(930)444-44-41</span>
+              <a href="tel:8(930)444-44-41" class="phone__text"
+                >Заказать обратный звонок</a
+              >
+            </div>
+            <!-- /.phone -->
+          </div>
+          <!-- /.navbar-navigation -->
+          <!-- /.navbar-menu -->
+          <div class="menu-button menu-button_hidden"></div>
+          <!-- menu-button -->
+        </div>
+        <!-- /.navbar-wrapper -->
+      </div>
+      <!-- /.container -->
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <h1 class="hero__title">Свежая продукция</h1>
+          <!-- /.hero__title -->
+          <span class="hero__subtitle">от фермеров</span>
+          <!-- /.hero__subtitle -->
+          <p class="hero__description">
+            Собственное производство нашей продукции. Более 600 видов готовых
+            блюд. Сделайте заказ сейчас и получите гарантированную скидку на
+            доставку.
+          </p>
+          <!-- /.hero description -->
+          <button data-toggle="modal" class="button hero__button">
+            Заказать продукцию
+          </button>
+          <!-- /.button hero__button -->
+        </div>
+        <!-- /.hero-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-gallery">
+            <img
+              src="img/about/about__photo_big-1.png"
+              alt=" Photo : meat"
+              class="about__photo about__photo_big"
+            />
+            <img
+              src="img/about/about__photo_small-1.png"
+              alt=" Photo : meat"
+              class="about__photo about__photo_small"
+            />
+            <img
+              src="img/about/about__photo_small-2.png"
+              alt=" Photo : meat"
+              class="about__photo about__photo_small"
+            />
+            <img
+              src="img/about/about__photo_big-2.png"
+              alt=" Photo : meat"
+              class="about__photo about__photo_big"
+            />
+          </div>
+          <!-- /.aboute-gallery -->
+          <div class="about-text about__text">
+            <h2 class="section-title section-title_white about__title">
+              О компании
+            </h2>
+            <p class="about__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </p>
+            <!-- /.aboute__description -->
+            <p class="about__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </p>
+            <!-- /.aboute__description -->
+            <p class="about__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <!-- /.aboute__description -->
+            <!-- /.section-title about__title -->
+          </div>
+          <!-- /.about-text -->
+        </div>
+        <!-- /.aboute-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="popular" id="popular">
+      <div class="popular-wrapper">
+        <div class="container">
+          <h2 class="section-title section-title_green popular__title">
+            Популярные товары
+          </h2>
+          <div class="swiper-container popular-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="popular-slider__card">
+                  <img
+                    src="img/popular/popular-image-1.png"
+                    alt="Image : meat"
+                    class="popular-slider__image"
+                  />
+                  <div class="popular-slider__text">
+                    <h3 class="popular-slider__title">
+                      Сувлаки и куриный шашлык на шпажках
+                    </h3>
+                    <p class="popular-slider__description">
+                      Ngna aliqua. Ut enim ad minim veniam, quis nostrud exercin
+                      ullamco laboris nisi
+                    </p>
+                    <div class="popular-slider__price">
+                      <strong class="popular-slider__price-tag">350</strong>
+                      <span class="popular-slider__price-value">руб./кг</span>
+                    </div>
+                    <!-- /.popular-slider__price -->
+                    <button
+                      data-toggle="modal"
+                      class="button popular-slider__button"
+                    >
+                      Заказать
+                    </button>
+                  </div>
+                  <!-- /.popular-slider__text -->
+                </div>
+                <!-- /.popular-slider__card -->
+              </div>
+              <!-- swiper-slide -->
+              <div class="swiper-slide">
+                <div class="popular-slider__card">
+                  <img
+                    src="img/popular/popular-image-2.png"
+                    alt="Image : meat"
+                    class="popular-slider__image"
+                  />
+                  <div class="popular-slider__text">
+                    <h3 class="popular-slider__title">
+                      Маринованные мясные улиточки
+                    </h3>
+                    <p class="popular-slider__description">
+                      Ngna aliqua. Ut enim ad minim veniam, quis nostrud exercin
+                      ullamco laboris nisi
+                    </p>
+                    <div class="popular-slider__price">
+                      <strong class="popular-slider__price-tag">350</strong>
+                      <span class="popular-slider__price-value">руб./кг</span>
+                    </div>
+                    <!-- /.popular-slider__price -->
+                    <button
+                      data-toggle="modal"
+                      class="button popular-slider__button"
+                    >
+                      Заказать
+                    </button>
+                  </div>
+                  <!-- /.popular-slider__text -->
+                </div>
+                <!-- /.popular-slider__card -->
+              </div>
+              <!-- swiper-slide -->
+              <div class="swiper-slide">
+                <div class="popular-slider__card">
+                  <img
+                    src="img/popular/popular-image-3.png"
+                    alt="Image : meat"
+                    class="popular-slider__image"
+                  />
+                  <div class="popular-slider__text">
+                    <h3 class="popular-slider__title">
+                      Паровые биточки из индейки
+                    </h3>
+                    <p class="popular-slider__description">
+                      Ngna aliqua. Ut enim ad minim veniam, quis nostrud exercin
+                      ullamco laboris nisi
+                    </p>
+                    <div class="popular-slider__price">
+                      <strong class="popular-slider__price-tag">350</strong>
+                      <span class="popular-slider__price-value">руб./кг</span>
+                    </div>
+                    <!-- /.popular-slider__price -->
+                    <button
+                      data-toggle="modal"
+                      class="button popular-slider__button"
+                    >
+                      Заказать
+                    </button>
+                  </div>
+                  <!-- /.popular-slider__text -->
+                </div>
+                <!-- /.popular-slider__card -->
+              </div>
+              <!-- swiper-slide -->
+              <div class="swiper-slide">
+                <div class="popular-slider__card">
+                  <img
+                    src="img/popular/popular-image-4.png"
+                    alt="Image : meat"
+                    class="popular-slider__image"
+                  />
+                  <div class="popular-slider__text">
+                    <h3 class="popular-slider__title">
+                      Свино-говяжьи люля в жировой сетке
+                    </h3>
+                    <p class="popular-slider__description">
+                      Ngna aliqua. Ut enim ad minim veniam, quis nostrud exercin
+                      ullamco laboris nisi
+                    </p>
+                    <div class="popular-slider__price">
+                      <strong class="popular-slider__price-tag">350</strong>
+                      <span class="popular-slider__price-value">руб./кг</span>
+                    </div>
+                    <!-- /.popular-slider__price -->
+                    <button
+                      data-toggle="modal"
+                      class="button popular-slider__button"
+                    >
+                      Заказать
+                    </button>
+                  </div>
+                  <!-- /.popular-slider__text -->
+                </div>
+                <!-- /.popular-slider__card -->
+              </div>
+              <!-- swiper-slide -->
+            </div>
+            <!-- swiper-wrapper -->
+          </div>
+          <!-- swiper-container popular-slider -->
+          <div class="swiper-pagination popular__swiper-pagination"></div>
+        </div>
+        <!-- /.container -->
+        <div class="popular__button popular__button_prev"></div>
+        <div class="popular__button popular__button_next"></div>
+      </div>
+      <!-- /.popular-wrapper-->
+    </section>
+    <section class="production" id="production">
+      <div class="container">
+        <h2 class="section-title section-title_green production__title">
+          наша продукция
+        </h2>
+        <div class="production-wrapper">
+          <a href="#" class="production__item">
+            <div class="production-block">
+              <img
+                src="img/production/product-1.jpg"
+                alt="Image : meat"
+                class="production__image"
+              />
+              <h3 class="production__name">Баранина</h3>
+            </div>
+            <!-- /.production-block -->
+          </a>
+          <!-- /.production__item -->
+          <a href="#" class="production__item">
+            <div class="production-block">
+              <img
+                src="img/production/product-2.jpg"
+                alt="Image : meat"
+                class="production__image"
+              />
+              <h3 class="production__name">Говядина</h3>
+            </div>
+            <!-- /.production-block -->
+          </a>
+          <!-- /.production__item -->
+          <a href="#" class="production__item">
+            <div class="production-block">
+              <img
+                src="img/production/product-3.jpg"
+                alt="Image : meat"
+                class="production__image"
+              />
+              <h3 class="production__name">Свинина</h3>
+            </div>
+            <!-- /.production-block -->
+          </a>
+          <!-- /.production__item -->
+          <a href="#" class="production__item">
+            <div class="production-block">
+              <img
+                src="img/production/product-4.jpg"
+                alt="Image : meat"
+                class="production__image"
+              />
+              <h3 class="production__name">Птица</h3>
+            </div>
+            <!-- /.production-block -->
+          </a>
+          <!-- /.production__item -->
+          <a href="#" class="production__item">
+            <div class="production-block">
+              <img
+                src="img/production/product-5.jpg"
+                alt="Image : meat"
+                class="production__image"
+              />
+              <h3 class="production__name">Полуфабрикаты</h3>
+            </div>
+            <!-- /.production-block -->
+          </a>
+          <!-- /.production__item -->
+          <a href="#" class="production__item">
+            <div class="production-block">
+              <img
+                src="img/production/product-6.jpg"
+                alt="Image : meat"
+                class="production__image"
+              />
+              <h3 class="production__name">Все для мангала</h3>
+            </div>
+            <!-- /.production-block -->
+          </a>
+          <!-- /.production__item -->
+        </div>
+        <!-- /.production-wrapper -->
+      </div>
+      <!-- container -->
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <h2 class="section-title section-title_white advantages__title">
+          почему выбирают нас
+        </h2>
+        <div class="advantages-blocks">
+          <div class="advantages-block advantages-block_text">
+            <div class="advantages-block__wrapper">
+              <h3 class="advantages-block__title">
+                Сертифицированная продукция
+              </h3>
+              <div class="advantages-block__line"></div>
+              <p class="advantages-block__description">
+                Сертифицированная продукция высшего качества
+              </p>
+            </div>
+            <!-- /.advantages-block__wrapper -->
+          </div>
+          <!-- advantages-block advantages-block_text -->
+          <div class="advantages-block advantages-block_photo">
+            <img
+              src="img/advantages/advantages-1.jpg"
+              alt=""
+              class="advantages-block__image"
+            />
+          </div>
+          <!-- advantages-block advantages-block_photo -->
+          <div class="advantages-block advantages-block_text">
+            <div class="advantages-block__wrapper">
+              <h3 class="advantages-block__title">
+                Жесткий ветеринарный контроль
+              </h3>
+              <div class="advantages-block__line"></div>
+              <p class="advantages-block__description">
+                Всегда сертифицированная продукция
+              </p>
+            </div>
+            <!-- /.advantages-block__wrapper -->
+          </div>
+          <!-- advantages-block advantages-block_text -->
+          <div class="advantages-block advantages-block_photo">
+            <img
+              src="img/advantages/advantages-2.jpg"
+              alt=""
+              class="advantages-block__image"
+            />
+          </div>
+          <!-- advantages-block advantages-block_photo -->
+          <div class="advantages-block advantages-block_photo">
+            <img
+              src="img/advantages/advantages-3.jpg"
+              alt=""
+              class="advantages-block__image"
+            />
+          </div>
+          <!-- advantages-block advantages-block_photo -->
+          <div class="advantages-block advantages-block_text">
+            <div class="advantages-block__wrapper">
+              <h3 class="advantages-block__title">Широкий ассортимент</h3>
+              <div class="advantages-block__line"></div>
+              <p class="advantages-block__description">
+                Возможность покупки больших партий
+              </p>
+            </div>
+            <!-- /.advantages-block__wrapper -->
+          </div>
+          <!-- advantages-block advantages-block_text -->
+          <div class="advantages-block advantages-block_photo">
+            <img
+              src="img/advantages/advantages-4.jpg"
+              alt=""
+              class="advantages-block__image"
+            />
+          </div>
+          <!-- advantages-block advantages-block_photo -->
+          <div class="advantages-block advantages-block_text">
+            <div class="advantages-block__wrapper">
+              <h3 class="advantages-block__title">
+                Оперативность поставки и свежесть
+              </h3>
+              <div class="advantages-block__line"></div>
+              <p class="advantages-block__description">
+                Доставка мяса по Москве в течении 3 часов
+              </p>
+            </div>
+            <!-- /.advantages-block__wrapper -->
+          </div>
+          <!-- advantages-block advantages-block_text -->
+        </div>
+        <!-- /.advantages-blocks -->
+      </div>
+      <!-- container -->
+    </section>
+    <section class="hot" id="hot">
+      <div class="container">
+        <h2 class="section-title section-title_green hot__title">
+          горячее предложение
+        </h2>
+        <p class="hot__description">
+          Скидка до конца месяца на говяжье мясо
+          <span class="hot__green">10%</span>
+        </p>
+        <form action="" class="form hot__form">
+          <div class="form-wrapper form__wrapper">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Номер телефона"
+              class="input hot__input"
+              id="hot-input"
+              required
+            />
+            <button class="button hot__button">Заказать продукцию</button>
+          </div>
+          <!-- /.form-wrapper -->
+          <div class="policy">
+            <input
+              type="checkbox"
+              class="policy__checkbox"
+              id="policy"
+              name="policy"
+              checked
+            />
+            <label class="policy__description" for="policy"
+              >Нажимая на кнопку, вы даете согласие на обработку своих
+              персональных данных и соглашаетесь с политикой
+              конфиденциальности.</label
+            >
+          </div>
+          <!-- /.hot__policy -->
+        </form>
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="order" id="order">
+      <div class="container">
+        <div class="order-wrap">
+          <h2 class="section-title section-title_white order__title">
+            как сделать заказ?
+          </h2>
+          <div class="order__items">
+            <div class="order__item">
+              <div class="order__image">
+                <img
+                  src="img/order/monitor.svg"
+                  alt="Icon : monitor"
+                  class="order__icon"
+                />
+              </div>
+              <!-- /.order__image -->
+              <p class="order__description">
+                Заказ на сайте или через оператора
+              </p>
+              <!-- /.order__description -->
+            </div>
+            <!-- /.order__item -->
+            <div class="order__item">
+              <div class="order__image">
+                <img
+                  src="img/order/deal.svg"
+                  alt="Icon : deal"
+                  class="order__icon"
+                />
+              </div>
+              <!-- /.order__image -->
+              <p class="order__description">
+                Согласование удобного времени доставки и уточнение стоимости
+                заказа
+              </p>
+              <!-- /.order__description -->
+            </div>
+            <!-- /.order__item -->
+            <div class="order__item">
+              <div class="order__image">
+                <img
+                  src="img/order/like.svg"
+                  alt="Icon : like"
+                  class="order__icon"
+                />
+              </div>
+              <!-- /.order__image -->
+              <p class="order__description">
+                Согласование удобного времени доставки и уточнение стоимости
+                заказа
+              </p>
+              <!-- /.order__description -->
+            </div>
+            <!-- /.order__item -->
+          </div>
+          <!-- /.order-items -->
+          <button data-toggle="modal" class="button order__button">
+            Заказать продукцию
+          </button>
+        </div>
+        <!-- /.order-wrap -->
+      </div>
+      <!-- container -->
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title section-title_green reviews__title">
+          отзывы наших клиентов
+        </h2>
+        <div class="swiper-container reviews-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews-slider__card">
+                <img
+                  src="img/reviews/avatar.jpg"
+                  alt="Photo : avatar"
+                  class="reviews-slider__avatar"
+                />
+                <h3 class="reviews-slider__name">Карина</h3>
+                <p class="reviews-slider__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in
+                </p>
+                <span class="reviews-slider__date">24.06.2020</span>
+              </div>
+              <!-- /.popular-slider__card -->
+            </div>
+            <!-- swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__card">
+                <img
+                  src="img/reviews/avatar-2.jpg"
+                  alt="Photo : avatar"
+                  class="reviews-slider__avatar"
+                />
+                <h3 class="reviews-slider__name">Андрей</h3>
+                <p class="reviews-slider__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in
+                </p>
+                <span class="reviews-slider__date">24.06.2020</span>
+              </div>
+              <!-- /.popular-slider__card -->
+            </div>
+            <!-- swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__card">
+                <img
+                  src="img/reviews/avatar-3.jpg"
+                  alt="Photo : avatar"
+                  class="reviews-slider__avatar"
+                />
+                <h3 class="reviews-slider__name">Настя</h3>
+                <p class="reviews-slider__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in
+                </p>
+                <span class="reviews-slider__date">24.06.2020</span>
+              </div>
+              <!-- /.popular-slider__card -->
+            </div>
+            <!-- swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__card">
+                <img
+                  src="img/reviews/avatar-4.jpg"
+                  alt="Photo : avatar"
+                  class="reviews-slider__avatar"
+                />
+                <h3 class="reviews-slider__name">Лиза</h3>
+                <p class="reviews-slider__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in
+                </p>
+                <span class="reviews-slider__date">24.06.2020</span>
+              </div>
+              <!-- /.popular-slider__card -->
+            </div>
+            <!-- swiper-slide -->
+          </div>
+          <!-- swiper-wrapper -->
+          <div class="reviews__button reviews__button_prev"></div>
+          <div class="reviews__button reviews__button_next"></div>
+        </div>
+        <!-- swiper-container reviews-slider -->
+        <div class="swiper-pagination reviews__swiper-pagination"></div>
+      </div>
+      <!-- container -->
+    </section>
+    <section class="feedback" id="feedback">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29970.459727651993!2d42.869978926167505!3d44.041740944835695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405783604df7845b%3A0x1fe493441d3ed414!2z0YPQuy4g0J7QutGC0Y_QsdGA0YzRgdC60LDRjywgMzM3LCDQldGB0YHQtdC90YLRg9C60LgsINCh0YLQsNCy0YDQvtC_0L7Qu9GM0YHQutC40Lkg0LrRgNCw0LksINCg0L7RgdGB0LjRjywgMzU3NjM1!5e0!3m2!1sru!2sua!4v1599829710469!5m2!1sru!2sua"
+        ></iframe>
+      </div>
+      <!-- /.map -->
+      <div class="container">
+        <form action="" class="form contact-form">
+          <h3 class="contact-form__title">ОСТАЛИСЬ ВОПРОСЫ?</h3>
+          <input
+            type="text"
+            name="name"
+            placeholder="Имя"
+            class="input contact-form__input"
+            minlength="2"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Номер телефона"
+            class="input contact-form__input"
+            id="feedback-input"
+            required
+          />
+          <button class="button contact-form__button">
+            Заказать продукцию
+          </button>
+
+          <div class="policy">
+            <input
+              type="checkbox"
+              class="policy__checkbox"
+              id="policy"
+              name="policy"
+              checked
+            />
+            <label class="policy__description" for="policy"
+              >Нажимая на кнопку, вы даете согласие на обработку своих
+              персональных данных и соглашаетесь с политикой
+              конфиденциальности.</label
+            >
+          </div>
+          <!-- /.hot__policy -->
+        </form>
+      </div>
+      <!-- /.container -->
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-info footer__info">
+            <a href="index.html" class="footer__logo-link">
+              <img
+                src="img/footer/footer-logo.png"
+                alt="Image: logo"
+                class="footer__logo"
+              />
+            </a>
+            <span class="footer__law"> Все права защищены.2020 </span>
+          </div>
+          <!-- /.info-block -->
+          <div class="footer-list">
+            <ul class="footer__ul">
+              <li class="footer__item">Свежая фермерская продукция</li>
+              <!-- /.footer__item -->
+              <li class="footer__item">Собственное производство</li>
+              <!-- /.footer__item -->
+              <li class="footer__item">Более 600 видов готовых блюд</li>
+              <!-- /.footer__item -->
+              <li class="footer__item">Доставка по КМБ</li>
+              <!-- /.footer__item -->
+            </ul>
+          </div>
+          <!-- footer-list -->
+          <div class="footer-list">
+            <ul class="footer__ul">
+              <li class="footer__item">
+                <a href="index.html" class="footer__link">Главная</a>
+              </li>
+              <!-- /.footer__item -->
+              <li class="footer__item">
+                <a href="#about" class="footer__link">О компании</a>
+              </li>
+              <!-- /.footer__item -->
+              <li class="footer__item">
+                <a href="#production" class="footer__link">Продукция</a>
+              </li>
+              <!-- /.footer__item -->
+              <li class="footer__item">
+                <a href="#popular" class="footer__link">Новости</a>
+              </li>
+              <!-- /.footer__item -->
+              <li class="footer__item">
+                <a href="#reviews" class="footer__link">Отзывы</a>
+              </li>
+              <!-- /.footer__item -->
+              <li class="footer__item">
+                <a href="#feedback" class="footer__link">Контакты</a>
+              </li>
+              <!-- /.footer__item -->
+            </ul>
+          </div>
+          <!-- footer-list -->
+          <div class="footer-wrap">
+            <div class="footer-list footer-wrap__list">
+              <ul class="footer__ul">
+                <li class="footer__item">
+                  <a href="tel:8(930)444-44-41" class="footer__link"
+                    >8(930)444-44-41</a
+                  >
+                </li>
+                <!-- /.footer__item -->
+                <li class="footer__item">
+                  <a href="mailto:myasnoy_gastronom@ess" class="footer__link"
+                    >myasnoy_gastronom@ess</a
+                  >
+                </li>
+                <!-- /.footer__item -->
+                <li class="footer__item">г. Ессентуки, ул Октябрьская 337/5</li>
+              </ul>
+            </div>
+            <!-- footer-list -->
+            <div class="socials">
+              <a href="#" class="socials__link"
+                ><img
+                  src="img/footer/instagram.svg"
+                  alt="Icon: instagram"
+                  class="socials__icon"
+              /></a>
+              <!-- /.socials__link -->
+              <a href="#" class="socials__link"
+                ><img
+                  src="img/footer/facebook.svg"
+                  alt="Icon: facebook"
+                  class="socials__icon"
+              /></a>
+              <!-- /.socials__link -->
+              <a href="#" class="socials__link"
+                ><img
+                  src="img/footer/vk .svg"
+                  alt="Icon: vk"
+                  class="socials__icon"
+              /></a>
+              <!-- /.socials__link -->
+              <a href="#" class="socials__link"
+                ><img
+                  src="img/footer/telegram.svg"
+                  alt="Icon: telegram"
+                  class="socials__icon"
+              /></a>
+              <!-- /.socials__link -->
+            </div>
+            <!-- /.footer__socials -->
+          </div>
+          <!-- /.footer-wrap -->
+        </div>
+        <!-- /.footer-wrapper -->
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="Icon: close" />
+        </a>
+        <form action="" class="form modal__form">
+          <h3 class="contact-form__title">ОСТАЛИСЬ ВОПРОСЫ?</h3>
+          <input
+            type="text"
+            name="name"
+            placeholder="Имя"
+            class="input modal__input"
+            minlength="2"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Номер телефона"
+            class="input modal__input"
+            id="feedback-input"
+            required
+          />
+          <button class="button modal__button">Заказать продукцию</button>
+
+          <div class="policy">
+            <input
+              type="checkbox"
+              class="policy__checkbox"
+              id="policy"
+              name="policy"
+              checked
+            />
+            <label class="policy__description" for="policy"
+              >Нажимая на кнопку, вы даете согласие на обработку своих
+              персональных данных и соглашаетесь с политикой
+              конфиденциальности.</label
+            >
+          </div>
+          <!-- /.hot__policy -->
+        </form>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

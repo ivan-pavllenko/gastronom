@@ -1,0 +1,114 @@
+.popular
+  padding-top: 80px
+  padding-bottom: 80px
+  position: relative
+  z-index: 1
+  &::before
+    content: ''
+    position: absolute
+    left: 3%
+    top: 3%
+    width: 163px
+    height: 162px
+    background-image: url(../img/popular/popular-bg-before.svg)
+    background-repeat: no-repeat
+    z-index: -1
+  &::after
+    content: ''
+    position: absolute
+    right: 3%
+    bottom: 0
+    width: 234px
+    height: 234px
+    background-image: url(../img//popular/popular-bg-after.svg)
+    background-repeat: no-repeat
+    z-index: -2
+  &-wrapper
+    max-width: 1410px
+    margin: auto
+    position: relative
+  &__title
+    position: relative
+    text-align: center
+    color: $green
+    max-width: 530px
+    margin-right: auto
+    margin-left: auto
+    margin-bottom: 90px
+  &-slider
+    margin-bottom: 40px
+    &__card
+      width: 100%
+      min-height: 470px
+      background-color: $light
+      border-radius: 10px
+      overflow: hidden
+      color: $black
+    &__image
+      width: 100%
+      height: 210px
+      object-fit: cover
+    &__text
+      padding: 22px 18px 25px 9px
+      min-height: 243px
+    &__title
+      font-family: Lazurski
+      font-style: normal
+      font-weight: bold
+      min-height: 45px
+      font-size: 18px
+      line-height: 127.5%
+      margin-bottom: 8px
+    &__description
+      font-weight: normal
+      font-size: 14px
+      line-height: 127.5%
+      margin-bottom: 17px
+    &__price
+      display: flex
+      align-items: flex-end
+      color: #3F0F01
+      margin-bottom: 20px
+      line-height: 100.5%
+      &-tag
+        font-weight: bold
+        font-size: 28px
+        margin-right: 5px
+      &-value
+        font-weight: 600
+        font-size: 18px
+        line-height: 11px
+    &__button
+      padding: 14px 61px
+      box-shadow: none
+  &__button
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: 84px
+    height: 36px
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 84px 36px
+    background-color: transparent
+    border: none
+    outline: none
+    cursor: pointer
+    z-index: 99
+    &_prev
+      background-image: url(../img/popular/arrov-left.svg)
+      left: 0
+    &_next
+      background-image: url(../img/popular/arrov-right.svg)
+      right: 0
+
+.swiper
+  &-pagination
+    right: 50%
+    transform: translateX(50%)
+    &-bullet
+      width: 14px
+      height: 14px
+      background-color: $brown
+      border-radius: 50px
+      margin-right: 10px

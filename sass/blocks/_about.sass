@@ -1,0 +1,72 @@
+.about
+  position: relative
+  z-index: 1
+  padding-top: 230px
+  padding-bottom: 367px
+  background-image: url(../img/about/about-bg.png)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-top: -170px
+  &::before
+    content: ''
+    position: absolute
+    left: 13%
+    top: 11%
+    width: 188px
+    height: 134px
+    background-image: url(../img/about/about-tomato.svg)
+    background-repeat: no-repeat
+    z-index: -1
+  &::after
+    content: ''
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 15%
+    width: 400px
+    height: 182px
+    background-image: url(../img/about/about-carrot.svg)
+    background-repeat: no-repeat
+    z-index: -2
+      
+  &-wrapper
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+  &-gallery
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 572px
+  &__photo
+    object-fit: cover
+    border-radius: 20px
+    margin-bottom: 11px
+    &_big
+      width: 357px
+      height: 238px
+    &_small
+      width: 203px
+      height: 238px  
+  &-text
+    width: 536px
+  &__title
+    position: relative
+    text-align: center
+    color: $light
+    margin-bottom: 55px
+  &__description
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.5%;
+    text-align: center
+    color: $light
+    margin-bottom: 30px
+    
+ 
+
+
+
+  

@@ -1,0 +1,96 @@
+.production
+  padding-top: 80px
+  padding-bottom: 80px
+  position: relative
+  z-index: 1
+  &:before
+    content: ''
+    position: absolute
+    left: -7%
+    top: -15%
+    width: 254px
+    height: 276px
+    background-image: url(../img/production/production-bg.svg)
+    background-repeat: no-repeat
+    z-index: -1
+  &__title
+    position: relative
+    text-align: center
+    color: $green
+    max-width: 530px
+    margin-right: auto
+    margin-left: auto
+    margin-bottom: 90px
+  &-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__item
+    display: flex
+    position: relative
+    width: 368px
+    height: 248px
+    border-radius: 10px
+    cursor: pointer
+    overflow: hidden
+    text-decoration: none
+    margin-bottom: 30px
+    &::before
+      content: ''
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background: linear-gradient(0deg, rgba(63, 15, 1, 0.59), rgba(63, 15, 1, 0.59))
+
+  &-block
+    position: relative
+    display: flex
+    width: 100%
+    height: 100%
+    &::before
+      content: ''
+      position: absolute
+      bottom: 90px
+      left: 50%
+      transform: translateX(-50%)
+      width: 244px
+      height: 4px
+      background-image: url(../img/production/line-small.png)
+      background-repeat: no-repeat
+      z-index: 2
+      opacity: 0
+    &::after
+      content: ''
+      position: absolute
+      top: 90px
+      left: 50%
+      width: 244px
+      height: 4px
+      background-image: url(../img/production/line-small.png)
+      background-repeat: no-repeat
+      transform: rotate(180deg) translateX(50%)
+      z-index: 3
+      opacity: 0
+  &__image
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    object-fit: cover
+    z-index: -1
+  &__name
+    position: relative
+    font-family: Lazurski
+    font-style: normal
+    font-weight: bold
+    font-size: 38px
+    color: $light
+    margin: auto
+    text-align: center
+    z-index: 1
